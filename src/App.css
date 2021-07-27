@@ -6,6 +6,7 @@
 .container{
   width: 1250px;
   margin: 0 auto;
+  max-width: 100%;
 }
 .body-div{
   margin-top: 80px !important;
