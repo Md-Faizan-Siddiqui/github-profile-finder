@@ -1,13 +1,14 @@
-*{
-  margin: 0 ;
-  padding: 0 ;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-.container{
+.container {
   width: 1250px;
   margin: 0 auto;
+  max-width: 100%;
 }
-.body-div{
+.body-div {
   margin-top: 80px !important;
   border-radius: 20px;
   width: 30%;
@@ -17,22 +18,22 @@
   background-color: white;
   box-shadow: 0 0 10px gray;
 }
-.pra-div{
+.pra-div {
   display: flex;
   justify-content: space-around;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px gray;
 }
-button{
+button {
   width: 100%;
   background-color: #1dbf73;
-  border: none; 
+  border: none;
   height: 50px;
   font-size: 18px;
   border-radius: 10px;
 }
-input{
+input {
   width: 100%;
   /* color: #fff; */
   height: 50px;
@@ -41,15 +42,15 @@ input{
   font-size: 18px;
   border-radius: 10px;
 }
-input:focus{
+input:focus {
   outline: none;
 }
-img{
-  border-radius: 50%; 
+img {
+  border-radius: 50%;
   width: 70%;
   height: 70%;
   margin: 10px;
 }
-.heading{
+.heading {
   padding: 10px;
 }
